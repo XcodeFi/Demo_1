@@ -1,0 +1,25 @@
+﻿<!--<div>
+    <label>Member name:</label> <input #memberName />
+    <button (click)="add(memberName.value); memberName.value=''">
+        Add
+    </button>
+</div>-->
+<div class="items">
+    <ul class="heroes">
+        <li *ngFor="let member of members" (click)="onSelect(member)"
+            [class.selected]="member === selectedMember">
+            <span class="badge">{{member.id}}</span>
+            <span>{{member.name}}</span>
+            <!--<button class="delete"
+                    (click)="delete(member); $event.stopPropagation()">
+                x
+            </button>-->
+        </li>
+    </ul>
+</div>
+<div *ngIf="selectedMember">
+    <h2>
+        {{selectedMember.name | uppercase}}
+    </h2>
+    <!--<button (click)="gotoDetail()">View Details</button>-->
+</div>

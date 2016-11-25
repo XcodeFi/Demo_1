@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7567BC78-77CB-4FF7-BA0D-EBE24195D6DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30278EBA-ADB9-4AA6-8405-102368EA8075}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Demo_angular_vs_net_core", "src\Demo_angular_vs_net_core\Demo_angular_vs_net_core.xproj", "{EB0756DB-9575-4742-A4AD-E3BE105C5C4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB0756DB-9575-4742-A4AD-E3BE105C5C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0756DB-9575-4742-A4AD-E3BE105C5C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0756DB-9575-4742-A4AD-E3BE105C5C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0756DB-9575-4742-A4AD-E3BE105C5C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB0756DB-9575-4742-A4AD-E3BE105C5C4D} = {7567BC78-77CB-4FF7-BA0D-EBE24195D6DE}
+	EndGlobalSection
+EndGlobal
